@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="Booking.Listeners.TestListener"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/welcome/IdeaProjects/BookingAPP">
+        <classes><class name="PageTest.HomePageTest">
+            <methods><include name="launchbrowser"/><include name="Loginwithvalidcredentials"/>
+            </methods>
+        </class></classes>
+    </test>
+</suite>
